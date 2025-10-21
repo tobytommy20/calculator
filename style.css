@@ -63,4 +63,33 @@ form input.mode {
   background-color: rgb(69, 77, 69);
   color: rgb(143, 143, 185);
 }
+@media screen and (max-width: 600px) {
+  .cgpacalc {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .calcbody {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .course, .grade, .units {
+    width: 100%;
+  }
+
+  input {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  button {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
 
