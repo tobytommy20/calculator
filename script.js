@@ -10,7 +10,8 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.preventDefault(); 
     try {
-      display.value = eval(display.value);
+            const expression = display.value.replace(/%/g, "/100");
+            display.value = eval(display.value);
     } catch {
       display.value = "Error";
     }
