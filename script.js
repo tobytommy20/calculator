@@ -11,7 +11,7 @@ document.addEventListener("keydown", (e) => {
     e.preventDefault(); 
     try {
             const expression = display.value.replace(/%/g, "/100");
-            display.value = eval(display.value);
+            display.value = eval(expression);
     } catch {
       display.value = "Error";
     }
