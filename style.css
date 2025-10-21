@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-weight: bolder;
+  color: white;
+}
+
+.calculator {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(17, 15, 15);
+}
+.calculator form input {
+  margin: 10px;
+  border: 0;
+  outline: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px 0px rgb(78, 65, 65);
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+  border: solid rgb(27, 29, 27);
+}
+
+form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+}
+
+form input.round {
+  box-shadow: none;
+  background-color: chocolate;
+  border-radius: 25px;
+}
+form input.delete {
+  background-color: rgb(112, 15, 15);
+  box-sizing: none;
+  border: none;
+  box-shadow: none;
+}
+form input.gp {
+  background-color: rgb(4, 56, 4);
+}
+form input.operator {
+  color: chocolate;
+}
+form input.mode {
+  width: 42%;
+  box-shadow: none;
+  background-color: rgb(69, 77, 69);
+  color: rgb(143, 143, 185);
+}
+
